@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitoblar Olami | Dasturchi va Kitobsevar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-book-reader me-2"></i>Kitoblar Olami
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Men haqimda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Ko'nikmalar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#books">Sevimli kitoblar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#philosophy">Qoida</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Tajriba</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Bog'lanish</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">Kitoblar Dunyosi va Dasturlash</h1>
+            <p class="lead mb-4">100+ kitob, boy tarix bilimi va professional dasturlash tajribasining uyg'unligi</p>
+            <a href="#contact" class="btn btn-lg btn-primary">Bog'lanish</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Men haqimda</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="lead">Men – tajribali frontend dasturchi va Python backend ishlab chiquvchiman.</p>
+                    <p>Dasturlash bo‘yicha quyidagi texnologiyalarni yaxshi bilaman:
+                        HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript (ES6+), React.js, Python, aiogram3.
+                        Shuningdek, Git va GitHub orqali versiyalarni boshqarish bo‘yicha tajribaga egaman. Hozirda
+                        aiogram3 yordamida yaratilgan bir nechta real bot loyihalarim ishlamoqda.</p>
+                    <p>Bo‘sh vaqtlarimda kitob o‘qishdan zavqlanaman – hozirgacha 100 dan ortiq kitob o‘qiganman,
+                        jumladan jahon adabiyoti, tarix va din sohasidagi asarlar.</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="/Musobek.jpg" class="author-img" alt="Profile Image">
+                    <div class="mt-4">
+                        <h4>Sevimli janrlar:</h4>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <span class="badge bg-secondary m-1">Javascript</span>
+                            <span class="badge bg-secondary m-1">Python</span>
+                            <span class="badge bg-secondary m-1">Aiogram3</span>
+                            <span class="badge bg-secondary m-1">Tailwind CSS</span>
+                            <span class="badge bg-secondary m-1">Github</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Dasturlash Ko'nikmalarim</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between">
+                            <h5>HTML5</h5>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%">95%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between">
+                            <h5>CSS3</h5>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between">
+                            <h5>Bootstrap</h5>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%">92%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between">
+                            <h5>JavaScript</h5>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%">88%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between">
+                            <h5>React.js</h5>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tailwind CSS</h5>
+                            <span>87%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="87%">87%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section id="books" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Sevimli Mualliflar va Kitoblar</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="book-card card" data-bs-toggle="modal" data-bs-target="#bookModal"
+                        data-title="O'zbek Adabiyoti" data-img="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80"
+                        data-desc="Alixonto'ra So'g'uniy, Tohir Malik va boshqa o'zbek yozuvchilarining asarlari. O'zbek adabiyoti boy tarixga ega bo'lib, xalqimizning ma'naviy qadriyatlarini ifodalaydi.">
+                        <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80"
+                            class="card-img-top" alt="Book">
+                        <div class="card-body">
+                            <h5 class="card-title">O'zbek Adabiyoti</h5>
+                            <p class="card-text">Alixonto'ra So'g'uniy, Tohir Malik va boshqa o'zbek yozuvchilarining
+                                asarlari.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="book-card card" data-bs-toggle="modal" data-bs-target="#bookModal"
+                        data-title="Jahon Adabiyoti"
+                        data-img="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80"
+                        data-desc="Mark Tven, Jorge Oruel, Montaskie, Tomas Harris, Jek London va boshqalar. Jahon adabiyoti insoniyatning ma'naviy boyligi bo'lib, turli madaniyat va davrlardagi inson tajribasini aks ettiradi.">
+                        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80"
+                            class="card-img-top" alt="Book">
+                        <div class="card-body">
+                            <h5 class="card-title">Jahon Adabiyoti</h5>
+                            <p class="card-text">Mark Tven, Jorge Oruel, Montaskie, Tomas Harris, Jek London va
+                                boshqalar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="book-card card" data-bs-toggle="modal" data-bs-target="#bookModal"
+                        data-title="Rus Adabiyoti"
+                        data-img="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80"
+                        data-desc="Lev Tolstoy, Kafka va boshqa rus va sovet davri yozuvchilarining asarlari. Rus adabiyoti chuqur falsafiy tafakkur va inson psixologiyasini o'rganish bilan ajralib turadi.">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80"
+                            class="card-img-top" alt="Book">
+                        <div class="card-body">
+                            <h5 class="card-title">Rus Adabiyoti</h5>
+                            <p class="card-text">Lev Tolstoy, Kafka va boshqa rus va sovet davri yozuvchilarining
+                                asarlari.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Dasturchilar Konstitutsiyasi</h2>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Kod o‘qilishi – ustuvor.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Kodni chiroyli yozish – bu nafaqat estetika, balki jamoa ishi uchun shart. O‘zingizdan
+                                keyin keladigan dasturchi sizga rahmat aytsin, nafratlanmasin."
+                                <footer class="blockquote-footer mt-2">Kod o‘qilishi – ustuvor.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Versiya boshqaruvi – majburiy.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Git ishlatmaydigan dasturchi – xatolarni qaytarib bo‘lmaydigan odam. Har bir o‘zgarish
+                                commit bo‘lishi shart."
+                                <footer class="blockquote-footer mt-2">Versiya boshqaruvi – majburiy.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Test qil, keyin jo‘nat.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Kodni tekshirmasdan productionga chiqarish – foydalanuvchini “beta tester” qilish bilan
+                                barobar."
+                                <footer class="blockquote-footer mt-2">Test qil, keyin jo‘nat.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Refaktoring – do‘st.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Kodni vaqti-vaqti bilan tozalash va optimallashtirish – kelajakdagi muammolarni
+                                yo‘qotadi."
+                                <footer class="blockquote-footer mt-2">Refaktoring – do‘st.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <button id="moreQuotesBtn" class="btn btn-outline-primary">Ko'proq qoidalar</button>
+            </div>
+
+            <div id="moreQuotes" class="row mt-4" style="display: none;">
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">DRY – Don’t Repeat Yourself.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Bir xil kodni ikki marta yozma. Qayta ishlatiladigan funksiya va komponentlar yarat."
+                                <footer class="blockquote-footer mt-2">DRY – Don’t Repeat Yourself.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Yozganingni tushun.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Nima ishlayotganini tushunmasdan copy-paste qilish – vaqtinchalik yamoq, lekin keyin
+                                portlaydi."
+                                <footer class="blockquote-footer mt-2">Yozganingni tushun.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Dokumentatsiya yoz.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Kod tushunarli bo‘lsa ham, README yoki minimal hujjat qoldir – ayniqsa loyihani
+                                boshqalar ishlatishi kutilsa."
+                                <footer class="blockquote-footer mt-2">Dokumentatsiya yoz.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Kodni himoya qil, lekin ego qilma.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Kod – sen emas. Yaxshi taklif bo‘lsa, qabul qil. Yomon kodni tashlab yuborishdan
+                                qo‘rqma."
+                                <footer class="blockquote-footer mt-2">Kodni himoya qil, lekin ego qilma.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">O‘rganishni to‘xtatma</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Texnologiyalar doim yangilanadi. Yangi framework, yangi metodologiya – o‘rganishga
+                                tayyor bo‘l."
+                                <footer class="blockquote-footer mt-2">O‘rganishni to‘xtatma</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="philosopher-card card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Mas’uliyatli bo‘l.</h5>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="mb-0">
+                                "Sen yozgan kod minglab foydalanuvchilarga ta’sir qiladi. Har bir qator – bu ishonch."
+                                <footer class="blockquote-footer mt-2">Mas’uliyatli bo‘l.</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Ish Tajribam</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Frontend Dasturchi</h4>
+                    <h5>Samo Textile Group</h5>
+                    <p class="text-muted">2025 - Hozirgacha</p>
+                    <p>React.js va Python orqali modern texnologiyalar yordamida ishlab chiqarishni avtomatlashtirish
+                        uchun ilova va web loyihalar. Kuchli jamoa bilan birgalikda loyihalarni amalga oshirish.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Veb Dizayn va Dasturlash</h4>
+                    <h5>Sammi.ac Mustaqil ta'lim</h5>
+                    <p class="text-muted">2023-2024 - Hozirgacha</p>
+                    <p>React.js va modern texnologiyalar yordamida mijozlar uchun interfeyslar ishlab chiqish.Portfolio
+                        uchun loyihalar</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Veb Dizayn va Dasturlash</h4>
+                    <h5>Na'jot Ta'lim IT Academy</h5>
+                    <p class="text-muted">2022 - 2023</p>
+                    <p>Turli xil korporativ saytlar va veb-ilovalarni ishlab chiqish. Bootstrap va JavaScript asosida
+                        interaktiv veb-ilovalar yaratish.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Dasturlashni O'rganish</h4>
+                    <h5>Astrum IT Academy </h5>
+                    <p class="text-muted">2021 - 2021</p>
+                    <p>Dasturlash asoslarini o'rganish, turli xil loyihalar va amaliy ishlarni bajarish. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container text-center">
+            <i class="fas fa-quote-left fa-3x mb-4"></i>
+            <blockquote class="mx-auto">
+                "Kitoblar - bu qanotli so'zlar, ular zamonda va makonda uchib, avloddan-avlodga yetib boradilar."
+            </blockquote>
+            <p class="fw-bold">- Mirzo Ulug'bek</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Bog'lanish</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ismingiz</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email manzil</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Xabar</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Xabarni Yuborish</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="https://t.me/stronger0504" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://www.instagram.com/musobek_abduvahobov" target="_blank" rel="noopener noreferrer"
+                    class="instagram-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/musobek-abduvahobov-a19b73245" target="_blank"
+                    rel="noopener noreferrer" class="linkedin-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Musob" target="_blank" rel="noopener noreferrer" class="github-link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p>&copy; 2023 Musobek Portfolio. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <!-- Book Modal -->
+    <div class="modal fade" id="bookModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModalTitle">Kitob haqida ma'lumot</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="bookModalImg" src="" class="book-modal-img" alt="Book">
+                    <p id="bookModalDesc"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
